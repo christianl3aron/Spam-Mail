@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+    
+			<LinearLayout
+			android:layout_width="570dp"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:paddingTop="30dp"
+			android:paddingRight="20dp"
+			android:paddingLeft="20dp"
+			android:paddingBottom="20dp"
+			android:orientation="vertical"
+			android:background="#cecece"
+			android:focusableInTouchMode="true">
+						
+				<LinearLayout 
+				    android:orientation="horizontal"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:background="@drawable/rounded_edittext"
+				    android:weightSum="9">
+				    
+				    <EditText 
+				    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:layout_weight="1"
+				    android:enabled="false"
+				    android:text="CC: "
+				    android:textColor="#333"/>
+				    
+				    <EditText 
+				    android:id="@+id/contacto"
+				    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:layout_weight="8"/>
+				    
+				</LinearLayout>
+				
+				<LinearLayout 
+				    android:layout_height="wrap_content"
+				    android:layout_width="match_parent"
+				    android:layout_marginTop="20dp"
+				    android:background="@drawable/rounded_edittext">
+				    
+				    <EditText 
+				        android:id="@+id/mensaje"
+				        android:layout_width="match_parent"
+				        android:layout_height="200dp"/>
+				    
+				    
+				</LinearLayout>
+
+				<Button
+				    android:id="@+id/button1"
+				    android:layout_gravity="right"
+				    android:layout_width="100dp"
+				    android:layout_height="wrap_content"
+				    android:layout_marginTop="20dp"
+				    android:text="Crear" />
+						
+			</LinearLayout>
+						
+    
+
+</RelativeLayout>

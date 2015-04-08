@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:weightSum="3" >
+    
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="0.7"
+        android:background="#cecece"
+        android:orientation="vertical" 
+        android:paddingLeft="10dp">
+        
+        <RadioButton 
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:checked="true"
+        	android:text="@string/email1"
+        	android:textColor="#44b8ee"   
+        	android:textSize="20sp"
+        	android:paddingTop="10dp" />
+        
+		<TextView 
+			android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:paddingTop="20dp"
+        	android:text="@string/lbl_input_message"
+        	android:textSize="14sp"
+        	
+		/>        
+		
+        <LinearLayout 
+        	android:layout_height="3dp"
+        	android:layout_width="match_parent"
+        	android:background="#878787">
+        </LinearLayout>
+        
+        <LinearLayout 
+        	android:layout_height="wrap_content"
+        	android:layout_width="match_parent"
+        	android:orientation="horizontal"
+        	android:weightSum="8">
+        	
+            <Button 
+            	android:id="@+id/btn_prinipal"
+            	android:layout_height="wrap_content"
+            	android:layout_width="0dp"
+            	android:layout_weight="7.1"
+            	android:text="   Principal"
+            	android:gravity="left|center"
+            	android:drawableLeft="@drawable/social_group"
+            	android:background="#cecece"/>
+            
+            <TextView 
+                android:id="@+id/lbl_prinipal"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:gravity="center"
+                android:background="#5a2"
+                android:textStyle="bold|italic"
+                android:textColor="#fff"
+                android:text="1"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+        	android:layout_height="wrap_content"
+        	android:layout_width="match_parent"
+        	android:orientation="horizontal"
+        	android:weightSum="8">
+        	
+            <Button 
+            	android:id="@+id/btn_spam"
+            	android:layout_height="wrap_content"
+            	android:layout_width="0dp"
+            	android:layout_weight="7.1"
+            	android:text="   Spam"
+            	android:gravity="left|center"
+            	android:drawableLeft="@drawable/spam_ic"
+            	android:background="#cecece"/>
+            
+            <TextView 
+                android:id="@+id/lbl_spam"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:gravity="center"
+                android:background="#f2473f"
+                android:textStyle="bold|italic"
+                android:textColor="#fff"
+                android:text="2"/>
+            
+        </LinearLayout>
+    
+    </LinearLayout>
+    
+    
+    
+    
+  
+    <LinearLayout
+		android:layout_width="1dp"
+    	android:layout_height="match_parent"
+    	android:background="#5d5d5d">    
+    </LinearLayout>
+    <LinearLayout
+		android:layout_width="1dp"
+    	android:layout_height="match_parent"
+    	android:background="#6f6f6f">    
+    </LinearLayout>
+    <LinearLayout
+		android:layout_width="1dp"
+    	android:layout_height="match_parent"
+    	android:background="#828282">    
+    </LinearLayout>
+    <LinearLayout
+		android:layout_width="1dp"
+    	android:layout_height="match_parent"
+    	android:background="#949494">    
+    </LinearLayout>
+    <LinearLayout
+		android:layout_width="1dp"
+    	android:layout_height="match_parent"
+    	android:background="#a7a7a7">    
+    </LinearLayout>
+    <LinearLayout
+		android:layout_width="1dp"
+    	android:layout_height="match_parent"
+    	android:background="#bababa">    
+    </LinearLayout>
+    <LinearLayout
+		android:layout_width="1dp"
+    	android:layout_height="match_parent"
+    	android:background="#c0c0c0">    
+    </LinearLayout>
+    <LinearLayout
+		android:layout_width="1dp"
+    	android:layout_height="match_parent"
+    	android:background="#c7c7c7">    
+    </LinearLayout>
+    <LinearLayout
+		android:layout_width="1dp"
+    	android:layout_height="match_parent"
+    	android:background="#cecece">    
+    </LinearLayout>
+    <LinearLayout
+		android:layout_width="1dp"
+    	android:layout_height="match_parent"
+    	android:background="#d5d5d5">    
+    </LinearLayout>
+     
+    
+    <LinearLayout
+		android:layout_weight="2.3"
+		android:layout_width="0dp"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:background="#dcdcdc">
+
+        <ListView
+            android:id="@+id/lista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    
+    </LinearLayout>
+    
+    
+</LinearLayout>

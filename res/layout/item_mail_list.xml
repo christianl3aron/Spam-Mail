@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ddd"
+    android:gravity="center|left"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/per" 
+        android:layout_margin="7dp"
+        android:contentDescription="contacto"/>
+
+    <TextView
+        android:id="@+id/txt_contacto"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Christian Baron"
+        android:textSize="17sp" />
+    
+     <TextView
+        android:id="@+id/txt_resumen"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Asterisk Ingles - mensaje de confirmacion de ........."
+        android:textSize="16sp" />
+     
+     <TextView
+        android:id="@+id/txt_fecha"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="17 de jun"
+        android:textSize="15sp" />
+
+     <RatingBar
+         android:id="@+id/ratingBar1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="20dp"
+         android:numStars="1"
+         
+         android:rating="1.0"
+         style="?android:attr/ratingBarStyleSmall" />
+
+</LinearLayout>
